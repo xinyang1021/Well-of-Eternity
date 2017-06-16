@@ -71,19 +71,25 @@
 			var red = progress.getElementsByClassName('red')[0];
 			var spans = progress.getElementsByClassName('span')[0];
 			var is=progress.getElementsByClassName('i')[0];
+			var red = progress.getElementsByClassName('red')[0];
 			var num = 0;
 			var timer;
+			var value = 37;
+//			var	a = window.getComputedStyle(red)
+//			console.log(red);
+//			console.log(window.getComputedStyle(red));
+//			console.log(a.width);
 			window.onload = function(){
 				red.classList.add('on');
 				spans.classList.add('on');
 				timer = setInterval(function(){
 					num++;
-					if(num<=37){
+					if(num<=value){
 						is.innerHTML = num + '%'
-					}else if(num>37){
+					}else if(num>value){
 						clearInterval(timer);
 					}
-				},70);				
+				},76);				
 			};
 		</script>
 	</body>

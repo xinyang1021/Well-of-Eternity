@@ -191,10 +191,6 @@ i,
 em {
   font-style: normal;
 }
-iframe {
-  position: absolute;
-  z-index: 999;
-}
 header {
   color: #fff;
   background-color: #FA3432;

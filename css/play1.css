@@ -359,7 +359,7 @@ header a {
   position: relative;
   overflow: hidden;
 }
-.progress div i {
+.progress div .red {
   display: block;
   width: 6.82rem;
   height: 0.15rem;
